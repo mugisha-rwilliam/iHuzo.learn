@@ -43,15 +43,16 @@ footer {
     width: 100%;
 }
 
-a:hover{
+nav:hover > a {
     font-size: 24px;
     color: green;
     text-decoration: bold;
+    background: limewhite;
 }
 
 img:hover{
-    size: 1.2em;
-    left: 15px;
+    size: 1.4em;
+    bottom: 30px;
 }
 
 li{
@@ -70,7 +71,7 @@ img{
 
 nav{
     text-align: center;
-    color: darkblue;
+    color: #fe4e4e;
     
 }
 
