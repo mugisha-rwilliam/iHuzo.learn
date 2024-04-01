@@ -1,18 +1,13 @@
-/* styles.css */
-
-/* Reset default browser styles */
 body, h1, p {
-    margin: 0;
-    padding: 0;
+    margin: 40px;
+    padding: 10;
 }
 
-/* Set a background color for the entire page */
 body {
     background-color: #f9f9f9;
     font-family: Arial, sans-serif;
 }
 
-/* Header styles */
 header {
     background-color: #333;
     color: #fff;
@@ -20,19 +15,16 @@ header {
     text-align: center;
 }
 
-/* Blog title */
 h1 {
-    font-size: 24px;
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
-/* Blog description */
 p {
-    font-size: 16px;
+    font-size: 20px;
     opacity: 0.8;
 }
 
-/* Main content area */
 article {
     background-color: #fff;
     padding: 20px;
@@ -41,7 +33,6 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -52,7 +43,28 @@ footer {
     width: 100%;
 }
 
-/* Responsive styles (optional) */
+li:hover{
+    font-size: 24px;
+    color: green;
+    text-decoration: bold;
+}
+
+img:hover{
+    size: 1.2em;
+}
+
+img{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav{
+    text-align: center;
+    color: darkblue;
+    
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 20px;
@@ -61,5 +73,3 @@ footer {
         font-size: 14px;
     }
 }
-
-/* Add more styles as needed! */
