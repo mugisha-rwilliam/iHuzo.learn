@@ -74,6 +74,14 @@ nav a{
     padding: 30px;
 }
 
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 20px;
