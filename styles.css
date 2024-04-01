@@ -52,8 +52,12 @@ img:hover{
     size: 1.2em;
 }
 
-img{
+li{
     display: inline-block;
+    margin: 40 px;
+}
+
+img{
     padding: 20px;
     margin: 20px;
     border: 1px solid #ddd;
