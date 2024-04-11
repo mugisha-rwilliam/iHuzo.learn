@@ -1,1 +1,1 @@
-alert('Hello, world');
+alert('Hello! Welcome to Baia');
